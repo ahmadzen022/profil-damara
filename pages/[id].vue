@@ -13,17 +13,16 @@
                         <!-- <h1 class="text start text-center my-4">DETAIL PRODUK</h1> -->
                     </div>
                     <div class="row">
-                    <div class="badge bg-info class p-2">{{ detail?.nama }}</div>
+                    <div class="badge bg-secondary class p-2">{{ detail?.nama }}</div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Nama produk: {{ detail?.nama }}</li>
                             <li class="list-group-item">Stok : {{ detail?.stok }}</li>
                             <li class="list-group-item">Size : {{ detail?.size }}</li>
-                            <li class="list-group-item">Harga : {{ detail?.harga }}</li>
-                            <li class="list-group-item">Deskripsi : {{ detail?.deskripsi }}</li>
+                            <li class="fs-5 list-group-item text-success ">Harga : {{ detail?.harga }}</li>
+                            <li class="list-group-item ">Deskripsi : {{ detail?.deskripsi }}</li>
                         </ul>                       
                     </div>
-                    <nuxt-link href="https://wa.me/6287749316731" class="btn btn-outline-success btn-lg mt-4  d-flex justify-content-around">Order WhatsApp</nuxt-link>
-                    <nuxt-link to="/" class="btn btn-outline-success btn-lg mt-4  d-flex justify-content-around">Kembali</nuxt-link>
+                    <nuxt-link href="https://wa.me/6283814789833" class="btn btn-outline-success btn-lg mt-4  d-flex justify-content-around">Order WhatsApp</nuxt-link>
+                    <nuxt-link to="/" class="btn btn-outline-secondary btn-lg mt-4  d-flex justify-content-around">Kembali</nuxt-link>
                 </div>
             </div>
         </div>

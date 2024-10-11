@@ -55,8 +55,10 @@ onMounted(() => {
                     <img :src="product.cover" class="card-img-top" :alt="product.nama">
                     <div class="card-body">
                         <h5 class="card-title text-center">{{ product.nama }}</h5>
-                        <p class="card-text">{{ product.harga }}</p>
-                        <NuxtLink :to="`/${product.id}`" class="btn btn-primary">Open</NuxtLink>
+                        <p class= "card-text">stok :{{ product.stok }}</p>
+                        <p class="text-success fs-5 card-text">{{ product.harga }}</p>                      
+                        <NuxtLink :to="`/${product.id}`" class="btn btn-outline-primary btn-lg mt-4  d-flex justify-content-around">Lihat Detail</NuxtLink>
+                        <NuxtLink href="https://wa.me/6283814789833" class="btn btn-outline-success btn-lg mt-4  d-flex justify-content-around">Order WhatsApp</NuxtLink>
                     </div>
                 </div>
                 
@@ -74,7 +76,7 @@ onMounted(() => {
 
     <!-- n -->
     <!-- footer -->
-     <Footer />
+    <Footer />
     <!-- <div class="card mt-5 shadow">
         <div class="card-body">
             <div class="image d-flex justify-content-center">
@@ -91,7 +93,7 @@ onMounted(() => {
     </div> -->
     <!-- contact wa -->
     <NuxtLink to="https://wa.me/6289505898529" class="wa-button fixed-bottom" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="wa-icon ">
             Hubungi Admin
     </NuxtLink>
     <!-- footer -->
@@ -110,6 +112,7 @@ onMounted(() => {
     font-size: 16px;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    left: 84%;
 }
 
 .wa-button:hover {

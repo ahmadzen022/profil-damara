@@ -1,5 +1,5 @@
 <template>
-     <nav class="navbar navbar-expand-lg navbar-light  shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light  shadow-sm fixed-top">
       <div class="container">
         <img src="~/assets/logo.png" alt="logo">
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -8,7 +8,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">about</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#product">Product</a>
